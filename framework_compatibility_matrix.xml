@@ -512,6 +512,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.power</name>
+        <version>2.0</version>
         <interface>
             <name>IPower</name>
             <instance>default</instance>
@@ -528,6 +529,7 @@
         <name>android.hardware.bluetooth.audio</name>
         <interface>
             <name>IBluetoothAudioProviderFactory</name>
+            <version>3.0</version>
             <instance>default</instance>
         </interface>
     </hal>
@@ -540,6 +542,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.light</name>
+        <version>2.0</version>
         <interface>
             <name>ILights</name>
             <instance>default</instance>
@@ -554,6 +557,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>android.hardware.wifi.supplicant</name>
+        <version>2.0</version>
         <interface>
             <name>ISupplicant</name>
             <instance>default</instance>
